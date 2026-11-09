@@ -1,0 +1,666 @@
+{
+  "meta": {
+    "image": "office_decor_tileset.png",
+    "size": {
+      "w": 1024,
+      "h": 1024
+    },
+    "projection": "2:1 dimetric",
+    "ground_angle_deg": 26.565,
+    "cell": {
+      "w": 128,
+      "h": 256,
+      "cols": 8,
+      "rows": 4
+    },
+    "tile": {
+      "w": 128,
+      "h": 64
+    },
+    "unit_elevation_px": 32,
+    "pixel_scale": 2,
+    "generator": "scripts/office-pixel.mjs"
+  },
+  "frames": {
+    "decor-tv_ne_part1": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv_ne_part1.png",
+      "label": "Big TV screen",
+      "parts": {
+        "index": 1,
+        "of": 2
+      }
+    },
+    "decor-tv_ne_part2": {
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv_ne_part2.png",
+      "label": "Big TV screen",
+      "parts": {
+        "index": 2,
+        "of": 2
+      }
+    },
+    "decor-neon-amazing_ne_part1": {
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-amazing_ne_part1.png",
+      "label": "Neon sign: EVERYTHING IS GOING TO BE FUCKING AMAZING",
+      "parts": {
+        "index": 1,
+        "of": 2
+      }
+    },
+    "decor-neon-amazing_ne_part2": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-amazing_ne_part2.png",
+      "label": "Neon sign: EVERYTHING IS GOING TO BE FUCKING AMAZING",
+      "parts": {
+        "index": 2,
+        "of": 2
+      }
+    },
+    "decor-neon-fuck-trump_ne": {
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-fuck-trump_ne.png",
+      "label": "Neon sign: FUCK TRUMP"
+    },
+    "decor-neon-trust-your-code_ne": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-trust-your-code_ne.png",
+      "label": "Neon sign: TRUST YOUR CODE"
+    },
+    "decor-neon-coffee_ne": {
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-coffee_ne.png",
+      "label": "Neon sign: 100% COFFEE MADE"
+    },
+    "decor-neon-deploy-fridays_ne": {
+      "frame": {
+        "x": 896,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-deploy-fridays_ne.png",
+      "label": "Neon sign: DEPLOY ON FRIDAYS"
+    },
+    "decor-neon-force_ne": {
+      "frame": {
+        "x": 0,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-force_ne.png",
+      "label": "Neon sign: MAY THE FORCE BE WITH YOU"
+    },
+    "decor-neon-power-up_ne": {
+      "frame": {
+        "x": 128,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-power-up_ne.png",
+      "label": "Neon sign: POWER UP"
+    },
+    "decor-bookshelf_ne": {
+      "frame": {
+        "x": 256,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-bookshelf_ne.png",
+      "label": "Mounted wood bookshelf"
+    },
+    "decor-switch-left_ne": {
+      "frame": {
+        "x": 384,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-switch-left_ne.png",
+      "label": "Light switch, left side of the tile"
+    },
+    "decor-switch-right_ne": {
+      "frame": {
+        "x": 512,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-switch-right_ne.png",
+      "label": "Light switch, right side of the tile"
+    },
+    "decor-elevator_ne": {
+      "frame": {
+        "x": 640,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-elevator_ne.png",
+      "label": "Elevator"
+    },
+    "decor-picture-sea_ne": {
+      "frame": {
+        "x": 768,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-picture-sea_ne.png",
+      "label": "Framed sea picture"
+    },
+    "decor-picture-forest_ne": {
+      "frame": {
+        "x": 896,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-picture-forest_ne.png",
+      "label": "Framed forest picture"
+    },
+    "decor-tv_nw_part1": {
+      "frame": {
+        "x": 0,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv_nw_part1.png",
+      "label": "Big TV screen",
+      "parts": {
+        "index": 1,
+        "of": 2
+      }
+    },
+    "decor-tv_nw_part2": {
+      "frame": {
+        "x": 128,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv_nw_part2.png",
+      "label": "Big TV screen",
+      "parts": {
+        "index": 2,
+        "of": 2
+      }
+    },
+    "decor-neon-amazing_nw_part1": {
+      "frame": {
+        "x": 256,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-amazing_nw_part1.png",
+      "label": "Neon sign: EVERYTHING IS GOING TO BE FUCKING AMAZING",
+      "parts": {
+        "index": 1,
+        "of": 2
+      }
+    },
+    "decor-neon-amazing_nw_part2": {
+      "frame": {
+        "x": 384,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-amazing_nw_part2.png",
+      "label": "Neon sign: EVERYTHING IS GOING TO BE FUCKING AMAZING",
+      "parts": {
+        "index": 2,
+        "of": 2
+      }
+    },
+    "decor-neon-fuck-trump_nw": {
+      "frame": {
+        "x": 512,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-fuck-trump_nw.png",
+      "label": "Neon sign: FUCK TRUMP"
+    },
+    "decor-neon-trust-your-code_nw": {
+      "frame": {
+        "x": 640,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-trust-your-code_nw.png",
+      "label": "Neon sign: TRUST YOUR CODE"
+    },
+    "decor-neon-coffee_nw": {
+      "frame": {
+        "x": 768,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-coffee_nw.png",
+      "label": "Neon sign: 100% COFFEE MADE"
+    },
+    "decor-neon-deploy-fridays_nw": {
+      "frame": {
+        "x": 896,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-deploy-fridays_nw.png",
+      "label": "Neon sign: DEPLOY ON FRIDAYS"
+    },
+    "decor-neon-force_nw": {
+      "frame": {
+        "x": 0,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-force_nw.png",
+      "label": "Neon sign: MAY THE FORCE BE WITH YOU"
+    },
+    "decor-neon-power-up_nw": {
+      "frame": {
+        "x": 128,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-power-up_nw.png",
+      "label": "Neon sign: POWER UP"
+    },
+    "decor-bookshelf_nw": {
+      "frame": {
+        "x": 256,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-bookshelf_nw.png",
+      "label": "Mounted wood bookshelf"
+    },
+    "decor-switch-left_nw": {
+      "frame": {
+        "x": 384,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-switch-left_nw.png",
+      "label": "Light switch, left side of the tile"
+    },
+    "decor-switch-right_nw": {
+      "frame": {
+        "x": 512,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-switch-right_nw.png",
+      "label": "Light switch, right side of the tile"
+    },
+    "decor-elevator_nw": {
+      "frame": {
+        "x": 640,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-elevator_nw.png",
+      "label": "Elevator"
+    },
+    "decor-picture-sea_nw": {
+      "frame": {
+        "x": 768,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-picture-sea_nw.png",
+      "label": "Framed sea picture"
+    },
+    "decor-picture-forest_nw": {
+      "frame": {
+        "x": 896,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-picture-forest_nw.png",
+      "label": "Framed forest picture"
+    }
+  }
+}

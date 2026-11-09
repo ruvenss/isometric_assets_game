@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "isometric-ops": {
+      "source": "0xDarkMatter/claude-mods",
+      "sourceType": "github",
+      "skillPath": "skills/isometric-ops/SKILL.md",
+      "computedHash": "747962c4d3364da3107cad342465dc6a1dba7aabd25250ba15cb50d81a7d9e03"
+    }
+  }
+}

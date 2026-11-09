@@ -1,0 +1,7188 @@
+{
+  "meta": {
+    "image": "office_tileset.png",
+    "size": {
+      "w": 1024,
+      "h": 1024
+    },
+    "projection": "2:1 dimetric",
+    "ground_angle_deg": 26.565,
+    "cell": {
+      "w": 128,
+      "h": 256,
+      "cols": 8,
+      "rows": 4
+    },
+    "tile": {
+      "w": 128,
+      "h": 64
+    },
+    "unit_elevation_px": 32,
+    "pixel_scale": 2,
+    "generator": "scripts/office-pixel.mjs",
+    "sheets": [
+      "office_tileset.png",
+      "office_decor_tileset.png",
+      "office_tileset_3.png",
+      "office_tileset_4.png",
+      "office_tileset_5.png",
+      "office_tileset_6.png",
+      "office_tileset_7.png",
+      "office_tileset_8.png",
+      "office_tileset_9.png",
+      "office_tileset_10.png",
+      "office_tileset_11.png",
+      "office_tileset_12.png",
+      "office_tileset_13.png",
+      "office_tileset_14.png",
+      "office_tileset_15.png",
+      "office_tileset_16.png"
+    ]
+  },
+  "frames": {
+    "floor-wood_flat": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "FLOORS/floor-wood_flat.png",
+      "label": "Wood planks",
+      "image": "office_tileset.png"
+    },
+    "floor-carpet-gray_flat": {
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "FLOORS/floor-carpet-gray_flat.png",
+      "label": "Gray carpet",
+      "image": "office_tileset.png"
+    },
+    "floor-carpet-black_flat": {
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "FLOORS/floor-carpet-black_flat.png",
+      "label": "Black carpet",
+      "image": "office_tileset.png"
+    },
+    "floor-cement-light_flat": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "FLOORS/floor-cement-light_flat.png",
+      "label": "Light gray cement",
+      "image": "office_tileset.png"
+    },
+    "floor-tiles-black_flat": {
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "FLOORS/floor-tiles-black_flat.png",
+      "label": "Black tiles",
+      "image": "office_tileset.png"
+    },
+    "floor-tiles-blue-small_flat": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "FLOORS/floor-tiles-blue-small_flat.png",
+      "label": "Small blue tiles",
+      "image": "office_tileset.png"
+    },
+    "wall-brick_ne": {
+      "frame": {
+        "x": 0,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WALLS/wall-brick_ne.png",
+      "label": "Brick",
+      "image": "office_tileset.png"
+    },
+    "wall-white_ne": {
+      "frame": {
+        "x": 128,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WALLS/wall-white_ne.png",
+      "label": "White",
+      "image": "office_tileset.png"
+    },
+    "wall-wood-white_ne": {
+      "frame": {
+        "x": 256,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WALLS/wall-wood-white_ne.png",
+      "label": "Wood wainscot bottom, white top",
+      "image": "office_tileset.png"
+    },
+    "wall-blue-skirting_ne": {
+      "frame": {
+        "x": 384,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WALLS/wall-blue-skirting_ne.png",
+      "label": "Light blue with skirting",
+      "image": "office_tileset.png"
+    },
+    "wall-white-led_ne": {
+      "frame": {
+        "x": 512,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WALLS/wall-white-led_ne.png",
+      "label": "White with bright LED skirting",
+      "image": "office_tileset.png"
+    },
+    "wall-tiles-black-big_ne": {
+      "frame": {
+        "x": 640,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WALLS/wall-tiles-black-big_ne.png",
+      "label": "Big black tiles",
+      "image": "office_tileset.png"
+    },
+    "wall-tiles-black-small-white_ne": {
+      "frame": {
+        "x": 768,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WALLS/wall-tiles-black-small-white_ne.png",
+      "label": "Small black tiles bottom, white top",
+      "image": "office_tileset.png"
+    },
+    "wall-brick_nw": {
+      "frame": {
+        "x": 0,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WALLS/wall-brick_nw.png",
+      "label": "Brick",
+      "image": "office_tileset.png"
+    },
+    "wall-white_nw": {
+      "frame": {
+        "x": 128,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WALLS/wall-white_nw.png",
+      "label": "White",
+      "image": "office_tileset.png"
+    },
+    "wall-wood-white_nw": {
+      "frame": {
+        "x": 256,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WALLS/wall-wood-white_nw.png",
+      "label": "Wood wainscot bottom, white top",
+      "image": "office_tileset.png"
+    },
+    "wall-blue-skirting_nw": {
+      "frame": {
+        "x": 384,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WALLS/wall-blue-skirting_nw.png",
+      "label": "Light blue with skirting",
+      "image": "office_tileset.png"
+    },
+    "wall-white-led_nw": {
+      "frame": {
+        "x": 512,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WALLS/wall-white-led_nw.png",
+      "label": "White with bright LED skirting",
+      "image": "office_tileset.png"
+    },
+    "wall-tiles-black-big_nw": {
+      "frame": {
+        "x": 640,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WALLS/wall-tiles-black-big_nw.png",
+      "label": "Big black tiles",
+      "image": "office_tileset.png"
+    },
+    "wall-tiles-black-small-white_nw": {
+      "frame": {
+        "x": 768,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WALLS/wall-tiles-black-small-white_nw.png",
+      "label": "Small black tiles bottom, white top",
+      "image": "office_tileset.png"
+    },
+    "decor-tv_ne_part1": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv_ne_part1.png",
+      "label": "Big TV screen",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_decor_tileset.png"
+    },
+    "decor-tv_ne_part2": {
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv_ne_part2.png",
+      "label": "Big TV screen",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-amazing_ne_part1": {
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-amazing_ne_part1.png",
+      "label": "Neon sign: EVERYTHING IS GOING TO BE FUCKING AMAZING",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-amazing_ne_part2": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-amazing_ne_part2.png",
+      "label": "Neon sign: EVERYTHING IS GOING TO BE FUCKING AMAZING",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-fuck-trump_ne": {
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-fuck-trump_ne.png",
+      "label": "Neon sign: FUCK TRUMP",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-trust-your-code_ne": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-trust-your-code_ne.png",
+      "label": "Neon sign: TRUST YOUR CODE",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-coffee_ne": {
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-coffee_ne.png",
+      "label": "Neon sign: 100% COFFEE MADE",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-deploy-fridays_ne": {
+      "frame": {
+        "x": 896,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-deploy-fridays_ne.png",
+      "label": "Neon sign: DEPLOY ON FRIDAYS",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-force_ne": {
+      "frame": {
+        "x": 0,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-force_ne.png",
+      "label": "Neon sign: MAY THE FORCE BE WITH YOU",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-power-up_ne": {
+      "frame": {
+        "x": 128,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-power-up_ne.png",
+      "label": "Neon sign: POWER UP",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-bookshelf_ne": {
+      "frame": {
+        "x": 256,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-bookshelf_ne.png",
+      "label": "Mounted wood bookshelf",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-switch-left_ne": {
+      "frame": {
+        "x": 384,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-switch-left_ne.png",
+      "label": "Light switch, left side of the tile",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-switch-right_ne": {
+      "frame": {
+        "x": 512,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-switch-right_ne.png",
+      "label": "Light switch, right side of the tile",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-elevator_ne": {
+      "frame": {
+        "x": 640,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-elevator_ne.png",
+      "label": "Elevator",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-picture-sea_ne": {
+      "frame": {
+        "x": 768,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-picture-sea_ne.png",
+      "label": "Framed sea picture",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-picture-forest_ne": {
+      "frame": {
+        "x": 896,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-picture-forest_ne.png",
+      "label": "Framed forest picture",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-tv_nw_part1": {
+      "frame": {
+        "x": 0,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv_nw_part1.png",
+      "label": "Big TV screen",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_decor_tileset.png"
+    },
+    "decor-tv_nw_part2": {
+      "frame": {
+        "x": 128,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv_nw_part2.png",
+      "label": "Big TV screen",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-amazing_nw_part1": {
+      "frame": {
+        "x": 256,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-amazing_nw_part1.png",
+      "label": "Neon sign: EVERYTHING IS GOING TO BE FUCKING AMAZING",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-amazing_nw_part2": {
+      "frame": {
+        "x": 384,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-amazing_nw_part2.png",
+      "label": "Neon sign: EVERYTHING IS GOING TO BE FUCKING AMAZING",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-fuck-trump_nw": {
+      "frame": {
+        "x": 512,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-fuck-trump_nw.png",
+      "label": "Neon sign: FUCK TRUMP",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-trust-your-code_nw": {
+      "frame": {
+        "x": 640,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-trust-your-code_nw.png",
+      "label": "Neon sign: TRUST YOUR CODE",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-coffee_nw": {
+      "frame": {
+        "x": 768,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-coffee_nw.png",
+      "label": "Neon sign: 100% COFFEE MADE",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-deploy-fridays_nw": {
+      "frame": {
+        "x": 896,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-deploy-fridays_nw.png",
+      "label": "Neon sign: DEPLOY ON FRIDAYS",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-force_nw": {
+      "frame": {
+        "x": 0,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-force_nw.png",
+      "label": "Neon sign: MAY THE FORCE BE WITH YOU",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-neon-power-up_nw": {
+      "frame": {
+        "x": 128,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-neon-power-up_nw.png",
+      "label": "Neon sign: POWER UP",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-bookshelf_nw": {
+      "frame": {
+        "x": 256,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-bookshelf_nw.png",
+      "label": "Mounted wood bookshelf",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-switch-left_nw": {
+      "frame": {
+        "x": 384,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-switch-left_nw.png",
+      "label": "Light switch, left side of the tile",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-switch-right_nw": {
+      "frame": {
+        "x": 512,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-switch-right_nw.png",
+      "label": "Light switch, right side of the tile",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-elevator_nw": {
+      "frame": {
+        "x": 640,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-elevator_nw.png",
+      "label": "Elevator",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-picture-sea_nw": {
+      "frame": {
+        "x": 768,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-picture-sea_nw.png",
+      "label": "Framed sea picture",
+      "image": "office_decor_tileset.png"
+    },
+    "decor-picture-forest_nw": {
+      "frame": {
+        "x": 896,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-picture-forest_nw.png",
+      "label": "Framed forest picture",
+      "image": "office_decor_tileset.png"
+    },
+    "door-glass_ne_closed": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-glass_ne_closed.png",
+      "label": "Glass door (closed)",
+      "image": "office_tileset_3.png"
+    },
+    "door-glass_ne_open": {
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-glass_ne_open.png",
+      "label": "Glass door (open)",
+      "image": "office_tileset_3.png"
+    },
+    "door-white_ne_closed": {
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-white_ne_closed.png",
+      "label": "White door (closed)",
+      "image": "office_tileset_3.png"
+    },
+    "door-white_ne_open": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-white_ne_open.png",
+      "label": "White door (open)",
+      "image": "office_tileset_3.png"
+    },
+    "door-black_ne_closed": {
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-black_ne_closed.png",
+      "label": "Black door (closed)",
+      "image": "office_tileset_3.png"
+    },
+    "door-black_ne_open": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-black_ne_open.png",
+      "label": "Black door (open)",
+      "image": "office_tileset_3.png"
+    },
+    "door-gray_ne_closed": {
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-gray_ne_closed.png",
+      "label": "Gray door (closed)",
+      "image": "office_tileset_3.png"
+    },
+    "door-gray_ne_open": {
+      "frame": {
+        "x": 896,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-gray_ne_open.png",
+      "label": "Gray door (open)",
+      "image": "office_tileset_3.png"
+    },
+    "door-red_ne_closed": {
+      "frame": {
+        "x": 0,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-red_ne_closed.png",
+      "label": "Red door (closed)",
+      "image": "office_tileset_3.png"
+    },
+    "door-red_ne_open": {
+      "frame": {
+        "x": 128,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-red_ne_open.png",
+      "label": "Red door (open)",
+      "image": "office_tileset_3.png"
+    },
+    "door-wood-dark_ne_closed": {
+      "frame": {
+        "x": 256,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-wood-dark_ne_closed.png",
+      "label": "Dark wood door (closed)",
+      "image": "office_tileset_3.png"
+    },
+    "door-wood-dark_ne_open": {
+      "frame": {
+        "x": 384,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-wood-dark_ne_open.png",
+      "label": "Dark wood door (open)",
+      "image": "office_tileset_3.png"
+    },
+    "door-wood-light_ne_closed": {
+      "frame": {
+        "x": 512,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-wood-light_ne_closed.png",
+      "label": "Light wood door (closed)",
+      "image": "office_tileset_3.png"
+    },
+    "door-wood-light_ne_open": {
+      "frame": {
+        "x": 640,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-wood-light_ne_open.png",
+      "label": "Light wood door (open)",
+      "image": "office_tileset_3.png"
+    },
+    "door-elevator_ne_closed": {
+      "frame": {
+        "x": 768,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-elevator_ne_closed.png",
+      "label": "Elevator door (closed)",
+      "image": "office_tileset_3.png"
+    },
+    "door-elevator_ne_open": {
+      "frame": {
+        "x": 896,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-elevator_ne_open.png",
+      "label": "Elevator door (open)",
+      "image": "office_tileset_3.png"
+    },
+    "door-emergency_ne_closed": {
+      "frame": {
+        "x": 0,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-emergency_ne_closed.png",
+      "label": "Emergency door with exit sign (closed)",
+      "image": "office_tileset_3.png"
+    },
+    "door-emergency_ne_open": {
+      "frame": {
+        "x": 128,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-emergency_ne_open.png",
+      "label": "Emergency door with exit sign (open)",
+      "image": "office_tileset_3.png"
+    },
+    "door-glass-sliding_ne_closed_part1": {
+      "frame": {
+        "x": 256,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-glass-sliding_ne_closed_part1.png",
+      "label": "Big sliding glass door (closed)",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_tileset_3.png"
+    },
+    "door-glass-sliding_ne_closed_part2": {
+      "frame": {
+        "x": 384,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-glass-sliding_ne_closed_part2.png",
+      "label": "Big sliding glass door (closed)",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_tileset_3.png"
+    },
+    "door-glass-sliding_ne_open_part1": {
+      "frame": {
+        "x": 512,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-glass-sliding_ne_open_part1.png",
+      "label": "Big sliding glass door (open)",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_tileset_3.png"
+    },
+    "door-glass-sliding_ne_open_part2": {
+      "frame": {
+        "x": 640,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-glass-sliding_ne_open_part2.png",
+      "label": "Big sliding glass door (open)",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_tileset_3.png"
+    },
+    "door-glass_nw_closed": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-glass_nw_closed.png",
+      "label": "Glass door (closed)",
+      "image": "office_tileset_4.png"
+    },
+    "door-glass_nw_open": {
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-glass_nw_open.png",
+      "label": "Glass door (open)",
+      "image": "office_tileset_4.png"
+    },
+    "door-white_nw_closed": {
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-white_nw_closed.png",
+      "label": "White door (closed)",
+      "image": "office_tileset_4.png"
+    },
+    "door-white_nw_open": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-white_nw_open.png",
+      "label": "White door (open)",
+      "image": "office_tileset_4.png"
+    },
+    "door-black_nw_closed": {
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-black_nw_closed.png",
+      "label": "Black door (closed)",
+      "image": "office_tileset_4.png"
+    },
+    "door-black_nw_open": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-black_nw_open.png",
+      "label": "Black door (open)",
+      "image": "office_tileset_4.png"
+    },
+    "door-gray_nw_closed": {
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-gray_nw_closed.png",
+      "label": "Gray door (closed)",
+      "image": "office_tileset_4.png"
+    },
+    "door-gray_nw_open": {
+      "frame": {
+        "x": 896,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-gray_nw_open.png",
+      "label": "Gray door (open)",
+      "image": "office_tileset_4.png"
+    },
+    "door-red_nw_closed": {
+      "frame": {
+        "x": 0,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-red_nw_closed.png",
+      "label": "Red door (closed)",
+      "image": "office_tileset_4.png"
+    },
+    "door-red_nw_open": {
+      "frame": {
+        "x": 128,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-red_nw_open.png",
+      "label": "Red door (open)",
+      "image": "office_tileset_4.png"
+    },
+    "door-wood-dark_nw_closed": {
+      "frame": {
+        "x": 256,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-wood-dark_nw_closed.png",
+      "label": "Dark wood door (closed)",
+      "image": "office_tileset_4.png"
+    },
+    "door-wood-dark_nw_open": {
+      "frame": {
+        "x": 384,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-wood-dark_nw_open.png",
+      "label": "Dark wood door (open)",
+      "image": "office_tileset_4.png"
+    },
+    "door-wood-light_nw_closed": {
+      "frame": {
+        "x": 512,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-wood-light_nw_closed.png",
+      "label": "Light wood door (closed)",
+      "image": "office_tileset_4.png"
+    },
+    "door-wood-light_nw_open": {
+      "frame": {
+        "x": 640,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-wood-light_nw_open.png",
+      "label": "Light wood door (open)",
+      "image": "office_tileset_4.png"
+    },
+    "door-elevator_nw_closed": {
+      "frame": {
+        "x": 768,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-elevator_nw_closed.png",
+      "label": "Elevator door (closed)",
+      "image": "office_tileset_4.png"
+    },
+    "door-elevator_nw_open": {
+      "frame": {
+        "x": 896,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-elevator_nw_open.png",
+      "label": "Elevator door (open)",
+      "image": "office_tileset_4.png"
+    },
+    "door-emergency_nw_closed": {
+      "frame": {
+        "x": 0,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-emergency_nw_closed.png",
+      "label": "Emergency door with exit sign (closed)",
+      "image": "office_tileset_4.png"
+    },
+    "door-emergency_nw_open": {
+      "frame": {
+        "x": 128,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-emergency_nw_open.png",
+      "label": "Emergency door with exit sign (open)",
+      "image": "office_tileset_4.png"
+    },
+    "door-glass-sliding_nw_closed_part1": {
+      "frame": {
+        "x": 256,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-glass-sliding_nw_closed_part1.png",
+      "label": "Big sliding glass door (closed)",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_tileset_4.png"
+    },
+    "door-glass-sliding_nw_closed_part2": {
+      "frame": {
+        "x": 384,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-glass-sliding_nw_closed_part2.png",
+      "label": "Big sliding glass door (closed)",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_tileset_4.png"
+    },
+    "door-glass-sliding_nw_open_part1": {
+      "frame": {
+        "x": 512,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-glass-sliding_nw_open_part1.png",
+      "label": "Big sliding glass door (open)",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_tileset_4.png"
+    },
+    "door-glass-sliding_nw_open_part2": {
+      "frame": {
+        "x": 640,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DOORS/door-glass-sliding_nw_open_part2.png",
+      "label": "Big sliding glass door (open)",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_tileset_4.png"
+    },
+    "window-full_ne_day": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-full_ne_day.png",
+      "label": "Full window (day)",
+      "image": "office_tileset_5.png"
+    },
+    "window-full_ne_night": {
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-full_ne_night.png",
+      "label": "Full window (night)",
+      "image": "office_tileset_5.png"
+    },
+    "window-half_ne_day": {
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-half_ne_day.png",
+      "label": "Half window (day)",
+      "image": "office_tileset_5.png"
+    },
+    "window-half_ne_night": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-half_ne_night.png",
+      "label": "Half window (night)",
+      "image": "office_tileset_5.png"
+    },
+    "window-grid_ne_day": {
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-grid_ne_day.png",
+      "label": "Window with white grid supports (day)",
+      "image": "office_tileset_5.png"
+    },
+    "window-grid_ne_night": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-grid_ne_night.png",
+      "label": "Window with white grid supports (night)",
+      "image": "office_tileset_5.png"
+    },
+    "window-arch_ne_day": {
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-arch_ne_day.png",
+      "label": "Window with top arch (day)",
+      "image": "office_tileset_5.png"
+    },
+    "window-arch_ne_night": {
+      "frame": {
+        "x": 896,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-arch_ne_night.png",
+      "label": "Window with top arch (night)",
+      "image": "office_tileset_5.png"
+    },
+    "window-circle_ne_day": {
+      "frame": {
+        "x": 0,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-circle_ne_day.png",
+      "label": "Circle window (day)",
+      "image": "office_tileset_5.png"
+    },
+    "window-circle_ne_night": {
+      "frame": {
+        "x": 128,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-circle_ne_night.png",
+      "label": "Circle window (night)",
+      "image": "office_tileset_5.png"
+    },
+    "window-full_nw_day": {
+      "frame": {
+        "x": 256,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-full_nw_day.png",
+      "label": "Full window (day)",
+      "image": "office_tileset_5.png"
+    },
+    "window-full_nw_night": {
+      "frame": {
+        "x": 384,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-full_nw_night.png",
+      "label": "Full window (night)",
+      "image": "office_tileset_5.png"
+    },
+    "window-half_nw_day": {
+      "frame": {
+        "x": 512,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-half_nw_day.png",
+      "label": "Half window (day)",
+      "image": "office_tileset_5.png"
+    },
+    "window-half_nw_night": {
+      "frame": {
+        "x": 640,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-half_nw_night.png",
+      "label": "Half window (night)",
+      "image": "office_tileset_5.png"
+    },
+    "window-grid_nw_day": {
+      "frame": {
+        "x": 768,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-grid_nw_day.png",
+      "label": "Window with white grid supports (day)",
+      "image": "office_tileset_5.png"
+    },
+    "window-grid_nw_night": {
+      "frame": {
+        "x": 896,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-grid_nw_night.png",
+      "label": "Window with white grid supports (night)",
+      "image": "office_tileset_5.png"
+    },
+    "window-arch_nw_day": {
+      "frame": {
+        "x": 0,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-arch_nw_day.png",
+      "label": "Window with top arch (day)",
+      "image": "office_tileset_5.png"
+    },
+    "window-arch_nw_night": {
+      "frame": {
+        "x": 128,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-arch_nw_night.png",
+      "label": "Window with top arch (night)",
+      "image": "office_tileset_5.png"
+    },
+    "window-circle_nw_day": {
+      "frame": {
+        "x": 256,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-circle_nw_day.png",
+      "label": "Circle window (day)",
+      "image": "office_tileset_5.png"
+    },
+    "window-circle_nw_night": {
+      "frame": {
+        "x": 384,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "WINDOWS/window-circle_nw_night.png",
+      "label": "Circle window (night)",
+      "image": "office_tileset_5.png"
+    },
+    "decor-tv-dashboard-dark_ne_part1": {
+      "frame": {
+        "x": 512,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv-dashboard-dark_ne_part1.png",
+      "label": "TV dashboard with charts, dark mode",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_tileset_5.png"
+    },
+    "decor-tv-dashboard-dark_ne_part2": {
+      "frame": {
+        "x": 640,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv-dashboard-dark_ne_part2.png",
+      "label": "TV dashboard with charts, dark mode",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_tileset_5.png"
+    },
+    "decor-tv-dashboard-light_ne_part1": {
+      "frame": {
+        "x": 768,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv-dashboard-light_ne_part1.png",
+      "label": "TV dashboard with charts, light mode",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_tileset_5.png"
+    },
+    "decor-tv-dashboard-light_ne_part2": {
+      "frame": {
+        "x": 896,
+        "y": 512,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv-dashboard-light_ne_part2.png",
+      "label": "TV dashboard with charts, light mode",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_tileset_5.png"
+    },
+    "decor-tv-presentation_ne_part1": {
+      "frame": {
+        "x": 0,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv-presentation_ne_part1.png",
+      "label": "Meeting-room TV with a presentation",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_tileset_5.png"
+    },
+    "decor-tv-presentation_ne_part2": {
+      "frame": {
+        "x": 128,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv-presentation_ne_part2.png",
+      "label": "Meeting-room TV with a presentation",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_tileset_5.png"
+    },
+    "decor-tv-dashboard-dark_nw_part1": {
+      "frame": {
+        "x": 256,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv-dashboard-dark_nw_part1.png",
+      "label": "TV dashboard with charts, dark mode",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_tileset_5.png"
+    },
+    "decor-tv-dashboard-dark_nw_part2": {
+      "frame": {
+        "x": 384,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv-dashboard-dark_nw_part2.png",
+      "label": "TV dashboard with charts, dark mode",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_tileset_5.png"
+    },
+    "decor-tv-dashboard-light_nw_part1": {
+      "frame": {
+        "x": 512,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv-dashboard-light_nw_part1.png",
+      "label": "TV dashboard with charts, light mode",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_tileset_5.png"
+    },
+    "decor-tv-dashboard-light_nw_part2": {
+      "frame": {
+        "x": 640,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv-dashboard-light_nw_part2.png",
+      "label": "TV dashboard with charts, light mode",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_tileset_5.png"
+    },
+    "decor-tv-presentation_nw_part1": {
+      "frame": {
+        "x": 768,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv-presentation_nw_part1.png",
+      "label": "Meeting-room TV with a presentation",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_tileset_5.png"
+    },
+    "decor-tv-presentation_nw_part2": {
+      "frame": {
+        "x": 896,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "file": "DECOR/decor-tv-presentation_nw_part2.png",
+      "label": "Meeting-room TV with a presentation",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_tileset_5.png"
+    },
+    "desk-wood_sw": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "FURNITURE/desk-wood_sw.png",
+      "label": "Wood desk",
+      "image": "office_tileset_6.png"
+    },
+    "desk-wood_se": {
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "FURNITURE/desk-wood_se.png",
+      "label": "Wood desk",
+      "image": "office_tileset_6.png"
+    },
+    "desk-wood_ne": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "FURNITURE/desk-wood_ne.png",
+      "label": "Wood desk",
+      "image": "office_tileset_6.png"
+    },
+    "desk-wood_nw": {
+      "frame": {
+        "x": 576,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "FURNITURE/desk-wood_nw.png",
+      "label": "Wood desk",
+      "image": "office_tileset_6.png"
+    },
+    "desk-gamer_sw": {
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "FURNITURE/desk-gamer_sw.png",
+      "label": "Gamer desk",
+      "image": "office_tileset_6.png"
+    },
+    "desk-gamer_se": {
+      "frame": {
+        "x": 0,
+        "y": 288,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "FURNITURE/desk-gamer_se.png",
+      "label": "Gamer desk",
+      "image": "office_tileset_6.png"
+    },
+    "desk-gamer_ne": {
+      "frame": {
+        "x": 192,
+        "y": 288,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "FURNITURE/desk-gamer_ne.png",
+      "label": "Gamer desk",
+      "image": "office_tileset_6.png"
+    },
+    "desk-gamer_nw": {
+      "frame": {
+        "x": 384,
+        "y": 288,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "FURNITURE/desk-gamer_nw.png",
+      "label": "Gamer desk",
+      "image": "office_tileset_6.png"
+    },
+    "desk-boss_sw": {
+      "frame": {
+        "x": 576,
+        "y": 288,
+        "w": 320,
+        "h": 352
+      },
+      "anchor": {
+        "x": 192,
+        "y": 352
+      },
+      "pivot": {
+        "x": 0.6,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 3,
+        "y": 2
+      },
+      "file": "FURNITURE/desk-boss_sw.png",
+      "label": "Big boss desk",
+      "image": "office_tileset_6.png"
+    },
+    "desk-boss_se": {
+      "frame": {
+        "x": 0,
+        "y": 640,
+        "w": 320,
+        "h": 352
+      },
+      "anchor": {
+        "x": 128,
+        "y": 352
+      },
+      "pivot": {
+        "x": 0.4,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 3
+      },
+      "file": "FURNITURE/desk-boss_se.png",
+      "label": "Big boss desk",
+      "image": "office_tileset_6.png"
+    },
+    "desk-boss_ne": {
+      "frame": {
+        "x": 320,
+        "y": 640,
+        "w": 320,
+        "h": 352
+      },
+      "anchor": {
+        "x": 192,
+        "y": 352
+      },
+      "pivot": {
+        "x": 0.6,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 3,
+        "y": 2
+      },
+      "file": "FURNITURE/desk-boss_ne.png",
+      "label": "Big boss desk",
+      "image": "office_tileset_6.png"
+    },
+    "desk-boss_nw": {
+      "frame": {
+        "x": 640,
+        "y": 640,
+        "w": 320,
+        "h": 352
+      },
+      "anchor": {
+        "x": 128,
+        "y": 352
+      },
+      "pivot": {
+        "x": 0.4,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 3
+      },
+      "file": "FURNITURE/desk-boss_nw.png",
+      "label": "Big boss desk",
+      "image": "office_tileset_6.png"
+    },
+    "cabin-soundproof_sw": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/cabin-soundproof_sw.png",
+      "label": "Soundproof phone cabin",
+      "image": "office_tileset_7.png"
+    },
+    "cabin-soundproof_se": {
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/cabin-soundproof_se.png",
+      "label": "Soundproof phone cabin",
+      "image": "office_tileset_7.png"
+    },
+    "cabin-soundproof_ne": {
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/cabin-soundproof_ne.png",
+      "label": "Soundproof phone cabin",
+      "image": "office_tileset_7.png"
+    },
+    "cabin-soundproof_nw": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/cabin-soundproof_nw.png",
+      "label": "Soundproof phone cabin",
+      "image": "office_tileset_7.png"
+    },
+    "cubicle-panel_ne": {
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/cubicle-panel_ne.png",
+      "label": "Cubicle wall panel (on the tile edge)",
+      "image": "office_tileset_7.png"
+    },
+    "cubicle-panel_nw": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/cubicle-panel_nw.png",
+      "label": "Cubicle wall panel (on the tile edge)",
+      "image": "office_tileset_7.png"
+    },
+    "monitor-multi-arm_sw": {
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/monitor-multi-arm_sw.png",
+      "label": "Multi monitor with arm holders (sits on a 2x1 desk)",
+      "image": "office_tileset_7.png"
+    },
+    "monitor-multi-arm_se": {
+      "frame": {
+        "x": 0,
+        "y": 288,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/monitor-multi-arm_se.png",
+      "label": "Multi monitor with arm holders (sits on a 2x1 desk)",
+      "image": "office_tileset_7.png"
+    },
+    "monitor-multi-arm_ne": {
+      "frame": {
+        "x": 192,
+        "y": 288,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/monitor-multi-arm_ne.png",
+      "label": "Multi monitor with arm holders (sits on a 2x1 desk)",
+      "image": "office_tileset_7.png"
+    },
+    "monitor-multi-arm_nw": {
+      "frame": {
+        "x": 384,
+        "y": 288,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/monitor-multi-arm_nw.png",
+      "label": "Multi monitor with arm holders (sits on a 2x1 desk)",
+      "image": "office_tileset_7.png"
+    },
+    "monitor-large_sw": {
+      "frame": {
+        "x": 576,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/monitor-large_sw.png",
+      "label": "Big large monitor (sits on a desk)",
+      "image": "office_tileset_7.png"
+    },
+    "monitor-large_se": {
+      "frame": {
+        "x": 704,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/monitor-large_se.png",
+      "label": "Big large monitor (sits on a desk)",
+      "image": "office_tileset_7.png"
+    },
+    "monitor-large_ne": {
+      "frame": {
+        "x": 832,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/monitor-large_ne.png",
+      "label": "Big large monitor (sits on a desk)",
+      "image": "office_tileset_7.png"
+    },
+    "monitor-large_nw": {
+      "frame": {
+        "x": 0,
+        "y": 576,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/monitor-large_nw.png",
+      "label": "Big large monitor (sits on a desk)",
+      "image": "office_tileset_7.png"
+    },
+    "keyboard-ergonomic_sw": {
+      "frame": {
+        "x": 128,
+        "y": 576,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/keyboard-ergonomic_sw.png",
+      "label": "Ergonomic split keyboard (sits on a desk)",
+      "image": "office_tileset_7.png"
+    },
+    "keyboard-ergonomic_se": {
+      "frame": {
+        "x": 256,
+        "y": 576,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/keyboard-ergonomic_se.png",
+      "label": "Ergonomic split keyboard (sits on a desk)",
+      "image": "office_tileset_7.png"
+    },
+    "keyboard-ergonomic_ne": {
+      "frame": {
+        "x": 384,
+        "y": 576,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/keyboard-ergonomic_ne.png",
+      "label": "Ergonomic split keyboard (sits on a desk)",
+      "image": "office_tileset_7.png"
+    },
+    "keyboard-ergonomic_nw": {
+      "frame": {
+        "x": 512,
+        "y": 576,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/keyboard-ergonomic_nw.png",
+      "label": "Ergonomic split keyboard (sits on a desk)",
+      "image": "office_tileset_7.png"
+    },
+    "keyboard_sw": {
+      "frame": {
+        "x": 640,
+        "y": 576,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/keyboard_sw.png",
+      "label": "Keyboard (sits on a desk)",
+      "image": "office_tileset_7.png"
+    },
+    "keyboard_se": {
+      "frame": {
+        "x": 768,
+        "y": 576,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/keyboard_se.png",
+      "label": "Keyboard (sits on a desk)",
+      "image": "office_tileset_7.png"
+    },
+    "keyboard_ne": {
+      "frame": {
+        "x": 896,
+        "y": 576,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/keyboard_ne.png",
+      "label": "Keyboard (sits on a desk)",
+      "image": "office_tileset_7.png"
+    },
+    "keyboard_nw": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/keyboard_nw.png",
+      "label": "Keyboard (sits on a desk)",
+      "image": "office_tileset_8.png"
+    },
+    "mouse-pad_sw": {
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/mouse-pad_sw.png",
+      "label": "Mouse pad and mouse (sits on a desk)",
+      "image": "office_tileset_8.png"
+    },
+    "mouse-pad_se": {
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/mouse-pad_se.png",
+      "label": "Mouse pad and mouse (sits on a desk)",
+      "image": "office_tileset_8.png"
+    },
+    "mouse-pad_ne": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/mouse-pad_ne.png",
+      "label": "Mouse pad and mouse (sits on a desk)",
+      "image": "office_tileset_8.png"
+    },
+    "mouse-pad_nw": {
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/mouse-pad_nw.png",
+      "label": "Mouse pad and mouse (sits on a desk)",
+      "image": "office_tileset_8.png"
+    },
+    "plant-cactus_flat": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/plant-cactus_flat.png",
+      "label": "Cactus plant",
+      "image": "office_tileset_8.png"
+    },
+    "plant_flat": {
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/plant_flat.png",
+      "label": "Plant",
+      "image": "office_tileset_8.png"
+    },
+    "plant-tree_flat": {
+      "frame": {
+        "x": 896,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/plant-tree_flat.png",
+      "label": "Indoor tree",
+      "image": "office_tileset_8.png"
+    },
+    "water-fountain_sw": {
+      "frame": {
+        "x": 0,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/water-fountain_sw.png",
+      "label": "Water fountain",
+      "image": "office_tileset_8.png"
+    },
+    "water-fountain_se": {
+      "frame": {
+        "x": 128,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/water-fountain_se.png",
+      "label": "Water fountain",
+      "image": "office_tileset_8.png"
+    },
+    "water-fountain_ne": {
+      "frame": {
+        "x": 256,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/water-fountain_ne.png",
+      "label": "Water fountain",
+      "image": "office_tileset_8.png"
+    },
+    "water-fountain_nw": {
+      "frame": {
+        "x": 384,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/water-fountain_nw.png",
+      "label": "Water fountain",
+      "image": "office_tileset_8.png"
+    },
+    "coffee-machine_sw": {
+      "frame": {
+        "x": 512,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/coffee-machine_sw.png",
+      "label": "Coffee machine on a cabinet",
+      "image": "office_tileset_8.png"
+    },
+    "coffee-machine_se": {
+      "frame": {
+        "x": 640,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/coffee-machine_se.png",
+      "label": "Coffee machine on a cabinet",
+      "image": "office_tileset_8.png"
+    },
+    "coffee-machine_ne": {
+      "frame": {
+        "x": 768,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/coffee-machine_ne.png",
+      "label": "Coffee machine on a cabinet",
+      "image": "office_tileset_8.png"
+    },
+    "coffee-machine_nw": {
+      "frame": {
+        "x": 896,
+        "y": 256,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/coffee-machine_nw.png",
+      "label": "Coffee machine on a cabinet",
+      "image": "office_tileset_8.png"
+    },
+    "juice-bar_sw": {
+      "frame": {
+        "x": 0,
+        "y": 512,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "FURNITURE/juice-bar_sw.png",
+      "label": "Juice bar",
+      "image": "office_tileset_8.png"
+    },
+    "juice-bar_se": {
+      "frame": {
+        "x": 192,
+        "y": 512,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "FURNITURE/juice-bar_se.png",
+      "label": "Juice bar",
+      "image": "office_tileset_8.png"
+    },
+    "juice-bar_ne": {
+      "frame": {
+        "x": 384,
+        "y": 512,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "FURNITURE/juice-bar_ne.png",
+      "label": "Juice bar",
+      "image": "office_tileset_8.png"
+    },
+    "juice-bar_nw": {
+      "frame": {
+        "x": 576,
+        "y": 512,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "FURNITURE/juice-bar_nw.png",
+      "label": "Juice bar",
+      "image": "office_tileset_8.png"
+    },
+    "drinks-bar_sw": {
+      "frame": {
+        "x": 768,
+        "y": 512,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "FURNITURE/drinks-bar_sw.png",
+      "label": "Drinks bar",
+      "image": "office_tileset_8.png"
+    },
+    "drinks-bar_se": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "FURNITURE/drinks-bar_se.png",
+      "label": "Drinks bar",
+      "image": "office_tileset_9.png"
+    },
+    "drinks-bar_ne": {
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "FURNITURE/drinks-bar_ne.png",
+      "label": "Drinks bar",
+      "image": "office_tileset_9.png"
+    },
+    "drinks-bar_nw": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "FURNITURE/drinks-bar_nw.png",
+      "label": "Drinks bar",
+      "image": "office_tileset_9.png"
+    },
+    "coffee-table-controller_sw": {
+      "frame": {
+        "x": 576,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/coffee-table-controller_sw.png",
+      "label": "Small coffee table with game controller",
+      "image": "office_tileset_9.png"
+    },
+    "coffee-table-controller_se": {
+      "frame": {
+        "x": 704,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/coffee-table-controller_se.png",
+      "label": "Small coffee table with game controller",
+      "image": "office_tileset_9.png"
+    },
+    "coffee-table-controller_ne": {
+      "frame": {
+        "x": 832,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/coffee-table-controller_ne.png",
+      "label": "Small coffee table with game controller",
+      "image": "office_tileset_9.png"
+    },
+    "coffee-table-controller_nw": {
+      "frame": {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/coffee-table-controller_nw.png",
+      "label": "Small coffee table with game controller",
+      "image": "office_tileset_9.png"
+    },
+    "game-console_sw": {
+      "frame": {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/game-console_sw.png",
+      "label": "Game console (PS5-style, stands on the floor)",
+      "image": "office_tileset_9.png"
+    },
+    "game-console_se": {
+      "frame": {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/game-console_se.png",
+      "label": "Game console (PS5-style, stands on the floor)",
+      "image": "office_tileset_9.png"
+    },
+    "game-console_ne": {
+      "frame": {
+        "x": 384,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/game-console_ne.png",
+      "label": "Game console (PS5-style, stands on the floor)",
+      "image": "office_tileset_9.png"
+    },
+    "game-console_nw": {
+      "frame": {
+        "x": 512,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/game-console_nw.png",
+      "label": "Game console (PS5-style, stands on the floor)",
+      "image": "office_tileset_9.png"
+    },
+    "arcade-machine_sw": {
+      "frame": {
+        "x": 640,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/arcade-machine_sw.png",
+      "label": "Old arcade machine",
+      "image": "office_tileset_9.png"
+    },
+    "arcade-machine_se": {
+      "frame": {
+        "x": 768,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/arcade-machine_se.png",
+      "label": "Old arcade machine",
+      "image": "office_tileset_9.png"
+    },
+    "arcade-machine_ne": {
+      "frame": {
+        "x": 896,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/arcade-machine_ne.png",
+      "label": "Old arcade machine",
+      "image": "office_tileset_9.png"
+    },
+    "arcade-machine_nw": {
+      "frame": {
+        "x": 0,
+        "y": 544,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/arcade-machine_nw.png",
+      "label": "Old arcade machine",
+      "image": "office_tileset_9.png"
+    },
+    "boxing-machine_sw": {
+      "frame": {
+        "x": 128,
+        "y": 544,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/boxing-machine_sw.png",
+      "label": "Old boxing machine",
+      "image": "office_tileset_9.png"
+    },
+    "boxing-machine_se": {
+      "frame": {
+        "x": 256,
+        "y": 544,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/boxing-machine_se.png",
+      "label": "Old boxing machine",
+      "image": "office_tileset_9.png"
+    },
+    "boxing-machine_ne": {
+      "frame": {
+        "x": 384,
+        "y": 544,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/boxing-machine_ne.png",
+      "label": "Old boxing machine",
+      "image": "office_tileset_9.png"
+    },
+    "boxing-machine_nw": {
+      "frame": {
+        "x": 512,
+        "y": 544,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/boxing-machine_nw.png",
+      "label": "Old boxing machine",
+      "image": "office_tileset_9.png"
+    },
+    "ping-pong-table_sw": {
+      "frame": {
+        "x": 640,
+        "y": 544,
+        "w": 320,
+        "h": 352
+      },
+      "anchor": {
+        "x": 192,
+        "y": 352
+      },
+      "pivot": {
+        "x": 0.6,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 3,
+        "y": 2
+      },
+      "file": "FURNITURE/ping-pong-table_sw.png",
+      "label": "Ping pong table",
+      "image": "office_tileset_9.png"
+    },
+    "ping-pong-table_se": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 352
+      },
+      "anchor": {
+        "x": 128,
+        "y": 352
+      },
+      "pivot": {
+        "x": 0.4,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 3
+      },
+      "file": "FURNITURE/ping-pong-table_se.png",
+      "label": "Ping pong table",
+      "image": "office_tileset_10.png"
+    },
+    "container-office_sw": {
+      "frame": {
+        "x": 320,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "anchor": {
+        "x": 192,
+        "y": 384
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 3,
+        "y": 3
+      },
+      "file": "FURNITURE/container-office_sw.png",
+      "label": "Container office",
+      "image": "office_tileset_10.png"
+    },
+    "container-office_se": {
+      "frame": {
+        "x": 0,
+        "y": 384,
+        "w": 384,
+        "h": 384
+      },
+      "anchor": {
+        "x": 192,
+        "y": 384
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 3,
+        "y": 3
+      },
+      "file": "FURNITURE/container-office_se.png",
+      "label": "Container office",
+      "image": "office_tileset_10.png"
+    },
+    "container-office_ne": {
+      "frame": {
+        "x": 384,
+        "y": 384,
+        "w": 384,
+        "h": 384
+      },
+      "anchor": {
+        "x": 192,
+        "y": 384
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 3,
+        "y": 3
+      },
+      "file": "FURNITURE/container-office_ne.png",
+      "label": "Container office",
+      "image": "office_tileset_10.png"
+    },
+    "container-office_nw": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "anchor": {
+        "x": 192,
+        "y": 384
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 3,
+        "y": 3
+      },
+      "file": "FURNITURE/container-office_nw.png",
+      "label": "Container office",
+      "image": "office_tileset_11.png"
+    },
+    "safe-door_ne": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/safe-door_ne.png",
+      "label": "Bank safe door (on the wall)",
+      "image": "office_tileset_11.png"
+    },
+    "safe-door_nw": {
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/safe-door_nw.png",
+      "label": "Bank safe door (on the wall)",
+      "image": "office_tileset_11.png"
+    },
+    "meeting-table_sw": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 384,
+        "h": 384
+      },
+      "anchor": {
+        "x": 256,
+        "y": 384
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 4,
+        "y": 2
+      },
+      "file": "FURNITURE/meeting-table_sw.png",
+      "label": "Big meeting table",
+      "image": "office_tileset_11.png"
+    },
+    "meeting-table_se": {
+      "frame": {
+        "x": 0,
+        "y": 384,
+        "w": 384,
+        "h": 384
+      },
+      "anchor": {
+        "x": 128,
+        "y": 384
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 4
+      },
+      "file": "FURNITURE/meeting-table_se.png",
+      "label": "Big meeting table",
+      "image": "office_tileset_11.png"
+    },
+    "chair-ergonomic_sw": {
+      "frame": {
+        "x": 384,
+        "y": 384,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-ergonomic_sw.png",
+      "label": "Ergonomic chair",
+      "image": "office_tileset_11.png"
+    },
+    "chair-ergonomic_se": {
+      "frame": {
+        "x": 512,
+        "y": 384,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-ergonomic_se.png",
+      "label": "Ergonomic chair",
+      "image": "office_tileset_11.png"
+    },
+    "chair-ergonomic_ne": {
+      "frame": {
+        "x": 640,
+        "y": 384,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-ergonomic_ne.png",
+      "label": "Ergonomic chair",
+      "image": "office_tileset_11.png"
+    },
+    "chair-ergonomic_nw": {
+      "frame": {
+        "x": 768,
+        "y": 384,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-ergonomic_nw.png",
+      "label": "Ergonomic chair",
+      "image": "office_tileset_11.png"
+    },
+    "chair-meeting_sw": {
+      "frame": {
+        "x": 896,
+        "y": 384,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-meeting_sw.png",
+      "label": "Meeting chair",
+      "image": "office_tileset_11.png"
+    },
+    "chair-meeting_se": {
+      "frame": {
+        "x": 0,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-meeting_se.png",
+      "label": "Meeting chair",
+      "image": "office_tileset_11.png"
+    },
+    "chair-meeting_ne": {
+      "frame": {
+        "x": 128,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-meeting_ne.png",
+      "label": "Meeting chair",
+      "image": "office_tileset_11.png"
+    },
+    "chair-meeting_nw": {
+      "frame": {
+        "x": 256,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-meeting_nw.png",
+      "label": "Meeting chair",
+      "image": "office_tileset_11.png"
+    },
+    "chair-bar_flat": {
+      "frame": {
+        "x": 384,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-bar_flat.png",
+      "label": "Bar chair",
+      "image": "office_tileset_11.png"
+    },
+    "pouf-beanbag_flat": {
+      "frame": {
+        "x": 512,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/pouf-beanbag_flat.png",
+      "label": "Pouf (big bean bag)",
+      "image": "office_tileset_11.png"
+    },
+    "ottoman_flat": {
+      "frame": {
+        "x": 640,
+        "y": 768,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/ottoman_flat.png",
+      "label": "Ottoman seat",
+      "image": "office_tileset_11.png"
+    },
+    "window-circle-big_ne_day_part1": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "WINDOWS/window-circle-big_ne_day_part1.png",
+      "label": "Big circle window (day)",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_tileset_12.png"
+    },
+    "window-circle-big_ne_day_part2": {
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "WINDOWS/window-circle-big_ne_day_part2.png",
+      "label": "Big circle window (day)",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_tileset_12.png"
+    },
+    "window-circle-big_ne_night_part1": {
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "WINDOWS/window-circle-big_ne_night_part1.png",
+      "label": "Big circle window (night)",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_tileset_12.png"
+    },
+    "window-circle-big_ne_night_part2": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "WINDOWS/window-circle-big_ne_night_part2.png",
+      "label": "Big circle window (night)",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_tileset_12.png"
+    },
+    "window-circle-big_nw_day_part1": {
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "WINDOWS/window-circle-big_nw_day_part1.png",
+      "label": "Big circle window (day)",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_tileset_12.png"
+    },
+    "window-circle-big_nw_day_part2": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "WINDOWS/window-circle-big_nw_day_part2.png",
+      "label": "Big circle window (day)",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_tileset_12.png"
+    },
+    "window-circle-big_nw_night_part1": {
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "WINDOWS/window-circle-big_nw_night_part1.png",
+      "label": "Big circle window (night)",
+      "parts": {
+        "index": 1,
+        "of": 2
+      },
+      "image": "office_tileset_12.png"
+    },
+    "window-circle-big_nw_night_part2": {
+      "frame": {
+        "x": 896,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "WINDOWS/window-circle-big_nw_night_part2.png",
+      "label": "Big circle window (night)",
+      "parts": {
+        "index": 2,
+        "of": 2
+      },
+      "image": "office_tileset_12.png"
+    },
+    "stair-half-into-wall_nw": {
+      "frame": {
+        "x": 0,
+        "y": 256,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "FURNITURE/stair-half-into-wall_nw.png",
+      "label": "Half stair into the wall (enters the left wall)",
+      "image": "office_tileset_12.png"
+    },
+    "stair-half-into-wall-ne_ne": {
+      "frame": {
+        "x": 192,
+        "y": 256,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "FURNITURE/stair-half-into-wall-ne_ne.png",
+      "label": "Half stair into the wall (enters the right wall)",
+      "image": "office_tileset_12.png"
+    },
+    "stair-spiral-black_flat": {
+      "frame": {
+        "x": 384,
+        "y": 256,
+        "w": 256,
+        "h": 352
+      },
+      "anchor": {
+        "x": 128,
+        "y": 352
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 2
+      },
+      "file": "FURNITURE/stair-spiral-black_flat.png",
+      "label": "Round black spiral stairs",
+      "image": "office_tileset_12.png"
+    },
+    "slide_sw": {
+      "frame": {
+        "x": 640,
+        "y": 256,
+        "w": 256,
+        "h": 320
+      },
+      "anchor": {
+        "x": 192,
+        "y": 320
+      },
+      "pivot": {
+        "x": 0.75,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 3,
+        "y": 1
+      },
+      "file": "FURNITURE/slide_sw.png",
+      "label": "Slide",
+      "image": "office_tileset_12.png"
+    },
+    "slide_se": {
+      "frame": {
+        "x": 0,
+        "y": 608,
+        "w": 256,
+        "h": 320
+      },
+      "anchor": {
+        "x": 64,
+        "y": 320
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 3
+      },
+      "file": "FURNITURE/slide_se.png",
+      "label": "Slide",
+      "image": "office_tileset_12.png"
+    },
+    "slide_ne": {
+      "frame": {
+        "x": 256,
+        "y": 608,
+        "w": 256,
+        "h": 320
+      },
+      "anchor": {
+        "x": 192,
+        "y": 320
+      },
+      "pivot": {
+        "x": 0.75,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 3,
+        "y": 1
+      },
+      "file": "FURNITURE/slide_ne.png",
+      "label": "Slide",
+      "image": "office_tileset_12.png"
+    },
+    "slide_nw": {
+      "frame": {
+        "x": 512,
+        "y": 608,
+        "w": 256,
+        "h": 320
+      },
+      "anchor": {
+        "x": 64,
+        "y": 320
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 3
+      },
+      "file": "FURNITURE/slide_nw.png",
+      "label": "Slide",
+      "image": "office_tileset_12.png"
+    },
+    "chair-ergonomic-white_sw": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-ergonomic-white_sw.png",
+      "label": "Ergonomic white chair",
+      "image": "office_tileset_13.png"
+    },
+    "chair-ergonomic-white_se": {
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-ergonomic-white_se.png",
+      "label": "Ergonomic white chair",
+      "image": "office_tileset_13.png"
+    },
+    "chair-ergonomic-white_ne": {
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-ergonomic-white_ne.png",
+      "label": "Ergonomic white chair",
+      "image": "office_tileset_13.png"
+    },
+    "chair-ergonomic-white_nw": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-ergonomic-white_nw.png",
+      "label": "Ergonomic white chair",
+      "image": "office_tileset_13.png"
+    },
+    "sofa-leather_sw": {
+      "frame": {
+        "x": 512,
+        "y": 0,
+        "w": 256,
+        "h": 320
+      },
+      "anchor": {
+        "x": 192,
+        "y": 320
+      },
+      "pivot": {
+        "x": 0.75,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 3,
+        "y": 1
+      },
+      "file": "FURNITURE/sofa-leather_sw.png",
+      "label": "Big leather sofa",
+      "image": "office_tileset_13.png"
+    },
+    "sofa-leather_se": {
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 256,
+        "h": 320
+      },
+      "anchor": {
+        "x": 64,
+        "y": 320
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 3
+      },
+      "file": "FURNITURE/sofa-leather_se.png",
+      "label": "Big leather sofa",
+      "image": "office_tileset_13.png"
+    },
+    "sofa-leather_ne": {
+      "frame": {
+        "x": 0,
+        "y": 320,
+        "w": 256,
+        "h": 320
+      },
+      "anchor": {
+        "x": 192,
+        "y": 320
+      },
+      "pivot": {
+        "x": 0.75,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 3,
+        "y": 1
+      },
+      "file": "FURNITURE/sofa-leather_ne.png",
+      "label": "Big leather sofa",
+      "image": "office_tileset_13.png"
+    },
+    "sofa-leather_nw": {
+      "frame": {
+        "x": 256,
+        "y": 320,
+        "w": 256,
+        "h": 320
+      },
+      "anchor": {
+        "x": 64,
+        "y": 320
+      },
+      "pivot": {
+        "x": 0.25,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 3
+      },
+      "file": "FURNITURE/sofa-leather_nw.png",
+      "label": "Big leather sofa",
+      "image": "office_tileset_13.png"
+    },
+    "chair-chill_sw": {
+      "frame": {
+        "x": 512,
+        "y": 320,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-chill_sw.png",
+      "label": "Big chilling chair (hanging egg chair)",
+      "image": "office_tileset_13.png"
+    },
+    "chair-chill_se": {
+      "frame": {
+        "x": 640,
+        "y": 320,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-chill_se.png",
+      "label": "Big chilling chair (hanging egg chair)",
+      "image": "office_tileset_13.png"
+    },
+    "chair-chill_ne": {
+      "frame": {
+        "x": 768,
+        "y": 320,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-chill_ne.png",
+      "label": "Big chilling chair (hanging egg chair)",
+      "image": "office_tileset_13.png"
+    },
+    "chair-chill_nw": {
+      "frame": {
+        "x": 896,
+        "y": 320,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/chair-chill_nw.png",
+      "label": "Big chilling chair (hanging egg chair)",
+      "image": "office_tileset_13.png"
+    },
+    "dog-corgi_sw": {
+      "frame": {
+        "x": 0,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/dog-corgi_sw.png",
+      "label": "Corgi dog",
+      "image": "office_tileset_13.png"
+    },
+    "dog-corgi_se": {
+      "frame": {
+        "x": 128,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/dog-corgi_se.png",
+      "label": "Corgi dog",
+      "image": "office_tileset_13.png"
+    },
+    "dog-corgi_ne": {
+      "frame": {
+        "x": 256,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/dog-corgi_ne.png",
+      "label": "Corgi dog",
+      "image": "office_tileset_13.png"
+    },
+    "dog-corgi_nw": {
+      "frame": {
+        "x": 384,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/dog-corgi_nw.png",
+      "label": "Corgi dog",
+      "image": "office_tileset_13.png"
+    },
+    "cat-black_sw": {
+      "frame": {
+        "x": 512,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/cat-black_sw.png",
+      "label": "Black cat",
+      "image": "office_tileset_13.png"
+    },
+    "cat-black_se": {
+      "frame": {
+        "x": 640,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/cat-black_se.png",
+      "label": "Black cat",
+      "image": "office_tileset_13.png"
+    },
+    "cat-black_ne": {
+      "frame": {
+        "x": 768,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/cat-black_ne.png",
+      "label": "Black cat",
+      "image": "office_tileset_13.png"
+    },
+    "cat-black_nw": {
+      "frame": {
+        "x": 896,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/cat-black_nw.png",
+      "label": "Black cat",
+      "image": "office_tileset_13.png"
+    },
+    "pool-table_sw": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 352
+      },
+      "anchor": {
+        "x": 192,
+        "y": 352
+      },
+      "pivot": {
+        "x": 0.6,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 3,
+        "y": 2
+      },
+      "file": "FURNITURE/pool-table_sw.png",
+      "label": "Pool table",
+      "image": "office_tileset_14.png"
+    },
+    "pool-table_se": {
+      "frame": {
+        "x": 320,
+        "y": 0,
+        "w": 320,
+        "h": 352
+      },
+      "anchor": {
+        "x": 128,
+        "y": 352
+      },
+      "pivot": {
+        "x": 0.4,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 3
+      },
+      "file": "FURNITURE/pool-table_se.png",
+      "label": "Pool table",
+      "image": "office_tileset_14.png"
+    },
+    "coat-rack_sw": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/coat-rack_sw.png",
+      "label": "Jacket and hat holder",
+      "image": "office_tileset_14.png"
+    },
+    "coat-rack_se": {
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/coat-rack_se.png",
+      "label": "Jacket and hat holder",
+      "image": "office_tileset_14.png"
+    },
+    "coat-rack_ne": {
+      "frame": {
+        "x": 896,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/coat-rack_ne.png",
+      "label": "Jacket and hat holder",
+      "image": "office_tileset_14.png"
+    },
+    "coat-rack_nw": {
+      "frame": {
+        "x": 0,
+        "y": 352,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/coat-rack_nw.png",
+      "label": "Jacket and hat holder",
+      "image": "office_tileset_14.png"
+    },
+    "lockers_sw": {
+      "frame": {
+        "x": 128,
+        "y": 352,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "FURNITURE/lockers_sw.png",
+      "label": "Lockers",
+      "image": "office_tileset_14.png"
+    },
+    "lockers_se": {
+      "frame": {
+        "x": 320,
+        "y": 352,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "FURNITURE/lockers_se.png",
+      "label": "Lockers",
+      "image": "office_tileset_14.png"
+    },
+    "lockers_ne": {
+      "frame": {
+        "x": 512,
+        "y": 352,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "FURNITURE/lockers_ne.png",
+      "label": "Lockers",
+      "image": "office_tileset_14.png"
+    },
+    "lockers_nw": {
+      "frame": {
+        "x": 704,
+        "y": 352,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "FURNITURE/lockers_nw.png",
+      "label": "Lockers",
+      "image": "office_tileset_14.png"
+    },
+    "laptop-silver_sw": {
+      "frame": {
+        "x": 896,
+        "y": 352,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/laptop-silver_sw.png",
+      "label": "Silver laptop (sits on a desk)",
+      "image": "office_tileset_14.png"
+    },
+    "laptop-silver_se": {
+      "frame": {
+        "x": 0,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/laptop-silver_se.png",
+      "label": "Silver laptop (sits on a desk)",
+      "image": "office_tileset_14.png"
+    },
+    "laptop-silver_ne": {
+      "frame": {
+        "x": 128,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/laptop-silver_ne.png",
+      "label": "Silver laptop (sits on a desk)",
+      "image": "office_tileset_14.png"
+    },
+    "laptop-silver_nw": {
+      "frame": {
+        "x": 256,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "on_desk": true,
+      "elevation_px": 48,
+      "file": "FURNITURE/laptop-silver_nw.png",
+      "label": "Silver laptop (sits on a desk)",
+      "image": "office_tileset_14.png"
+    },
+    "penguin-big_sw": {
+      "frame": {
+        "x": 384,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/penguin-big_sw.png",
+      "label": "Big penguin",
+      "image": "office_tileset_14.png"
+    },
+    "penguin-big_se": {
+      "frame": {
+        "x": 512,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/penguin-big_se.png",
+      "label": "Big penguin",
+      "image": "office_tileset_14.png"
+    },
+    "penguin-big_ne": {
+      "frame": {
+        "x": 640,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/penguin-big_ne.png",
+      "label": "Big penguin",
+      "image": "office_tileset_14.png"
+    },
+    "penguin-big_nw": {
+      "frame": {
+        "x": 768,
+        "y": 640,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "FURNITURE/penguin-big_nw.png",
+      "label": "Big penguin",
+      "image": "office_tileset_14.png"
+    },
+    "kitchen-island_sw": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-island_sw.png",
+      "label": "Kitchen island",
+      "image": "office_tileset_15.png"
+    },
+    "kitchen-island_se": {
+      "frame": {
+        "x": 192,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "KITCHEN/kitchen-island_se.png",
+      "label": "Kitchen island",
+      "image": "office_tileset_15.png"
+    },
+    "kitchen-island_ne": {
+      "frame": {
+        "x": 384,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-island_ne.png",
+      "label": "Kitchen island",
+      "image": "office_tileset_15.png"
+    },
+    "kitchen-island_nw": {
+      "frame": {
+        "x": 576,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "KITCHEN/kitchen-island_nw.png",
+      "label": "Kitchen island",
+      "image": "office_tileset_15.png"
+    },
+    "kitchen-cabinet-high_sw": {
+      "frame": {
+        "x": 768,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-cabinet-high_sw.png",
+      "label": "Kitchen high cabinet",
+      "image": "office_tileset_15.png"
+    },
+    "kitchen-cabinet-high_se": {
+      "frame": {
+        "x": 896,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-cabinet-high_se.png",
+      "label": "Kitchen high cabinet",
+      "image": "office_tileset_15.png"
+    },
+    "kitchen-cabinet-high_ne": {
+      "frame": {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-cabinet-high_ne.png",
+      "label": "Kitchen high cabinet",
+      "image": "office_tileset_15.png"
+    },
+    "kitchen-cabinet-high_nw": {
+      "frame": {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-cabinet-high_nw.png",
+      "label": "Kitchen high cabinet",
+      "image": "office_tileset_15.png"
+    },
+    "kitchen-cabinet-low_sw": {
+      "frame": {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-cabinet-low_sw.png",
+      "label": "Kitchen low cabinet",
+      "image": "office_tileset_15.png"
+    },
+    "kitchen-cabinet-low_se": {
+      "frame": {
+        "x": 384,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-cabinet-low_se.png",
+      "label": "Kitchen low cabinet",
+      "image": "office_tileset_15.png"
+    },
+    "kitchen-cabinet-low_ne": {
+      "frame": {
+        "x": 512,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-cabinet-low_ne.png",
+      "label": "Kitchen low cabinet",
+      "image": "office_tileset_15.png"
+    },
+    "kitchen-cabinet-low_nw": {
+      "frame": {
+        "x": 640,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-cabinet-low_nw.png",
+      "label": "Kitchen low cabinet",
+      "image": "office_tileset_15.png"
+    },
+    "fridge-50s_sw": {
+      "frame": {
+        "x": 768,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/fridge-50s_sw.png",
+      "label": "50's fridge",
+      "image": "office_tileset_15.png"
+    },
+    "fridge-50s_se": {
+      "frame": {
+        "x": 896,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/fridge-50s_se.png",
+      "label": "50's fridge",
+      "image": "office_tileset_15.png"
+    },
+    "fridge-50s_ne": {
+      "frame": {
+        "x": 0,
+        "y": 544,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/fridge-50s_ne.png",
+      "label": "50's fridge",
+      "image": "office_tileset_15.png"
+    },
+    "fridge-50s_nw": {
+      "frame": {
+        "x": 128,
+        "y": 544,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/fridge-50s_nw.png",
+      "label": "50's fridge",
+      "image": "office_tileset_15.png"
+    },
+    "fridge-modern_sw": {
+      "frame": {
+        "x": 256,
+        "y": 544,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/fridge-modern_sw.png",
+      "label": "Modern fridge",
+      "image": "office_tileset_15.png"
+    },
+    "fridge-modern_se": {
+      "frame": {
+        "x": 384,
+        "y": 544,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/fridge-modern_se.png",
+      "label": "Modern fridge",
+      "image": "office_tileset_15.png"
+    },
+    "fridge-modern_ne": {
+      "frame": {
+        "x": 512,
+        "y": 544,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/fridge-modern_ne.png",
+      "label": "Modern fridge",
+      "image": "office_tileset_15.png"
+    },
+    "fridge-modern_nw": {
+      "frame": {
+        "x": 640,
+        "y": 544,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/fridge-modern_nw.png",
+      "label": "Modern fridge",
+      "image": "office_tileset_15.png"
+    },
+    "fridge-aluminium_sw": {
+      "frame": {
+        "x": 768,
+        "y": 544,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/fridge-aluminium_sw.png",
+      "label": "Aluminium fridge",
+      "image": "office_tileset_15.png"
+    },
+    "fridge-aluminium_se": {
+      "frame": {
+        "x": 896,
+        "y": 544,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/fridge-aluminium_se.png",
+      "label": "Aluminium fridge",
+      "image": "office_tileset_15.png"
+    },
+    "fridge-aluminium_ne": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/fridge-aluminium_ne.png",
+      "label": "Aluminium fridge",
+      "image": "office_tileset_16.png"
+    },
+    "fridge-aluminium_nw": {
+      "frame": {
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/fridge-aluminium_nw.png",
+      "label": "Aluminium fridge",
+      "image": "office_tileset_16.png"
+    },
+    "kitchen-table-white_sw": {
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-table-white_sw.png",
+      "label": "Kitchen white table",
+      "image": "office_tileset_16.png"
+    },
+    "kitchen-table-white_se": {
+      "frame": {
+        "x": 448,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "KITCHEN/kitchen-table-white_se.png",
+      "label": "Kitchen white table",
+      "image": "office_tileset_16.png"
+    },
+    "kitchen-table-wood_sw": {
+      "frame": {
+        "x": 640,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 128,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.6667,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-table-wood_sw.png",
+      "label": "Kitchen wood table",
+      "image": "office_tileset_16.png"
+    },
+    "kitchen-table-wood_se": {
+      "frame": {
+        "x": 832,
+        "y": 0,
+        "w": 192,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.3333,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 2
+      },
+      "file": "KITCHEN/kitchen-table-wood_se.png",
+      "label": "Kitchen wood table",
+      "image": "office_tileset_16.png"
+    },
+    "kitchen-table-round-wood_flat": {
+      "frame": {
+        "x": 0,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-table-round-wood_flat.png",
+      "label": "Kitchen round wood table",
+      "image": "office_tileset_16.png"
+    },
+    "kitchen-chair_sw": {
+      "frame": {
+        "x": 128,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-chair_sw.png",
+      "label": "Kitchen chair",
+      "image": "office_tileset_16.png"
+    },
+    "kitchen-chair_se": {
+      "frame": {
+        "x": 256,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-chair_se.png",
+      "label": "Kitchen chair",
+      "image": "office_tileset_16.png"
+    },
+    "kitchen-chair_ne": {
+      "frame": {
+        "x": 384,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-chair_ne.png",
+      "label": "Kitchen chair",
+      "image": "office_tileset_16.png"
+    },
+    "kitchen-chair_nw": {
+      "frame": {
+        "x": 512,
+        "y": 288,
+        "w": 128,
+        "h": 256
+      },
+      "anchor": {
+        "x": 64,
+        "y": 256
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/kitchen-chair_nw.png",
+      "label": "Kitchen chair",
+      "image": "office_tileset_16.png"
+    },
+    "lamp-pendant-green_flat": {
+      "frame": {
+        "x": 640,
+        "y": 288,
+        "w": 128,
+        "h": 288
+      },
+      "anchor": {
+        "x": 64,
+        "y": 288
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 1,
+        "y": 1
+      },
+      "file": "KITCHEN/lamp-pendant-green_flat.png",
+      "label": "Low-hanging green pendant lamp (hangs from the ceiling)",
+      "image": "office_tileset_16.png"
+    },
+    "picnic-table_sw": {
+      "frame": {
+        "x": 768,
+        "y": 288,
+        "w": 256,
+        "h": 320
+      },
+      "anchor": {
+        "x": 128,
+        "y": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 2
+      },
+      "file": "KITCHEN/picnic-table_sw.png",
+      "label": "Garden picnic table",
+      "image": "office_tileset_16.png"
+    },
+    "picnic-table_se": {
+      "frame": {
+        "x": 0,
+        "y": 608,
+        "w": 256,
+        "h": 320
+      },
+      "anchor": {
+        "x": 128,
+        "y": 320
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1,
+        "origin": "top-left"
+      },
+      "footprint": {
+        "x": 2,
+        "y": 2
+      },
+      "file": "KITCHEN/picnic-table_se.png",
+      "label": "Garden picnic table",
+      "image": "office_tileset_16.png"
+    }
+  }
+}
