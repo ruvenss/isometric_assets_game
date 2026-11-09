@@ -176,7 +176,7 @@ Preview: `preview_furniture.png`. Validate with `--skip-dimension --skip-anchor 
 
 Dry run: `OFFICE_OUT=<scratch copy of this folder> node scripts/office-pixel.mjs` writes into the copy, so new designs can be checked before they land here for good.
 
-## Batch 4: stairs, slide, big circle window
+## Batch 4: stairs, big circle window
 
 Sheet `office_tileset_12.png` (packed by size; frames are in `office_tileset.json`). Preview: `preview_stairs.png`.
 
@@ -184,7 +184,6 @@ Sheet `office_tileset_12.png` (packed by size; frames are in `office_tileset.jso
 | --- | --- | --- | --- |
 | Half stair into the wall | `FURNITURE/stair-half-into-wall_nw.png`, `FURNITURE/stair-half-into-wall-ne_ne.png` | 2x1 / 1x2 | 6 steps (8 px rise) up to a landing at 48 px, then a doorway in the wall. Place it against the wall named by the suffix: `_nw` enters the left (NW) wall, `_ne` the right (NE) wall. Not rotated, because the doorway must sit on a visible wall. |
 | Round black stairs | `FURNITURE/stair-spiral-black_flat.png` | 2x2 | One full turn, 16 steps of 5 px, centre pole, balusters, helical rail, top landing at 88 px |
-| Slide | `FURNITURE/slide_<sw\|se\|ne\|nw>.png` | 3x1 | Ladder, platform at 46 px, yellow chute down to 4 px |
 | Big circle window | `WINDOWS/window-circle-big_<ne\|nw>_<day\|night>_part<1\|2>.png` | 2 wall tiles | Diameter 54 native px with a cross bar; part1 = left piece on screen |
 
 ## Batch 5: lounge, pets, kitchen
@@ -212,3 +211,9 @@ Sheets `office_tileset_13.png` .. `office_tileset_16.png` (packed by size). Prev
 | Garden picnic table | `KITCHEN/picnic-table_` | 2x2 | sw se |
 
 Coverage check (2026-11-09): all 101 items in `office.md` (95 bullets; the neon bullet is 7 signs) have sprites, and all 311 entries in `office_tileset.json` point to existing files.
+
+## Batch 6: tube slide
+
+`FURNITURE/slide-tube_<sw|se|ne|nw>.png` on `office_tileset_17.png`. Preview: `preview_slide_tube.png`.
+
+The office slide is a stainless-steel tube coming down from the ceiling. A dark collar at wall height (80 px) marks the hole in the ceiling. The tube makes one full turn round a support pole on a 2x2 footprint, then runs straight out towards its front onto a blue landing mat. The direction suffix is the way the exit faces. It replaces the first slide design (ladder and open chute), which was removed at the user's request: its model, 4 PNGs and config entries are gone, and `office_tileset_12.png` was rebuilt without it. The stairs and big circle window kept their exact frame positions.

@@ -1276,20 +1276,6 @@ model('stair-spiral-black', 'Round black spiral stairs', 64, 64, 100, FLAT, (v) 
     if (Math.hypot(dx, dy) <= 29 && dx <= 0 && dy <= 0) v.box(x, y, 88, x, y, 89, tread);
   }
 });
-model('slide', 'Slide', 96, 32, 62, ALL4, (v) => {
-  const chute = mat(two('#ffb43c', '#ff9f1c', (x, y, z, f) => f === 'top' && x % 6 === 0)), blue = mat('#3b82c4');
-  for (const b of [9, 22]) v.box(2, b, 0, 3, b, 58, MAT.steel);                       // ladder
-  for (let z = 6; z <= 42; z += 6) v.box(2, 10, z, 3, 21, z, MAT.steel);
-  v.box(4, 8, 44, 15, 23, 46, blue);                                                   // platform
-  for (const b of [8, 23]) v.box(4, b, 47, 15, b, 47, blue).box(4, b, 58, 15, b, 58, MAT.steel).box(15, b, 47, 15, b, 58, MAT.steel);
-  for (const [a, b] of [[4, 8], [15, 8], [4, 23], [15, 23]]) v.box(a, b, 0, a, b, 43, MAT.steel);
-  for (let a = 16; a < 94; a++) {
-    const zt = a >= 86 ? 4 : Math.round(46 - ((a - 16) * 42) / 70);
-    v.box(a, 9, zt - 1, a, 22, zt, chute);
-    for (const b of [8, 23]) v.box(a, b, zt - 1, a, b, zt + 4, chute);
-  }
-  v.box(52, 10, 0, 53, 21, 23, MAT.steel);
-});
 const props4 = propsOf(Object.entries(MODELS).filter(([n]) => !FIRST_MODELS.has(n)));
 const bigCircle = (u, v, n) => {
   const d2 = (u + 0.5 - 32) ** 2 + (v + 0.5 - 42) ** 2;
@@ -1485,6 +1471,34 @@ const props5 = propsOf(Object.entries(MODELS).filter(([n]) => !BEFORE_5.has(n)))
   .map((p) => ({ ...p, folder: KITCHEN.has(p.name.replace(/_[^_]+$/, '')) ? 'KITCHEN' : 'FURNITURE', hanging: !!MODELS[p.name.replace(/_[^_]+$/, '')].hanging }));
 appendPacked(props5);
 
+// ================================================================ batch 6: tube slide from the ceiling
+const BEFORE_6 = new Set(Object.keys(MODELS));
+// Stainless spiral tube: drops through a collar in the ceiling (z 80 = wall height), one
+// full turn round a support pole, then runs out towards the front (+y) onto a landing mat.
+model('slide-tube', 'Tube slide coming down from the ceiling', 64, 64, 86, ALL4, (v) => {
+  const C = 32, R = 20, r = 7;
+  const TUBE = mat(two('#b4bac0', '#d6dadf', (x, y, z, f) => f === 'top' || (x + y + z) % 9 === 0));
+  const JOINT = mat('#7d848c'), INSIDE = mat('#25272c');
+  v.cyl(C, C, 2, 0, 81, MAT.steel);                                                   // support pole
+  const path = [];
+  for (let z = 80; z >= 72; z -= 0.5) path.push([C + R, C, z]);                       // drop from the ceiling
+  for (let k = 0; k <= 900; k++) {                                                     // one turn down
+    const a = -Math.PI * 2 + (k / 900) * Math.PI * 2;
+    path.push([C + Math.cos(a) * R, C + Math.sin(a) * R, 72 - (k / 900) * 65]);
+  }
+  for (let y = C; y <= 63; y += 0.5) path.push([C + R, y, 7]);                         // run-out
+  path.forEach(([x, y, z], k) => v.ell(x, y, z, r, r, r, k % 120 < 6 ? JOINT : TUBE));
+  for (let y = 61; y <= 63; y++) for (let z = 1; z <= 12; z++) for (let x = C + R - 6; x <= C + R + 6; x++)
+    if ((x + 0.5 - C - R) ** 2 + (z + 0.5 - 7) ** 2 < 5.2 ** 2) v.set(x, y, z, INSIDE);  // open mouth
+  for (let x = C + R - 11; x <= C + R + 11; x++) for (let y = C - 11; y <= C + 11; y++)        // ceiling collar
+    if (Math.hypot(x + 0.5 - C - R, y + 0.5 - C) <= 10) v.box(x, y, 84, x, y, 85, Math.hypot(x + 0.5 - C - R, y + 0.5 - C) > 7.5 ? MAT.charcoal : MAT.black);
+  for (const [a, z] of [[Math.PI / 2, 57], [Math.PI, 40], [Math.PI * 1.5, 23]])        // brackets
+    for (let d = 1; d <= R - r; d++) v.set(C - 0.5 + Math.cos(a) * d, C - 0.5 + Math.sin(a) * d, z, MAT.steel);
+  v.box(C + R - 7, 64 - 6, 0, C + R + 7, 63, 0, mat('#3b82c4'));                       // landing mat (in footprint)
+});
+const props6 = propsOf(Object.entries(MODELS).filter(([n]) => !BEFORE_6.has(n)));
+appendPacked(props6);
+
 writeFileSync(join(OUT, CONFIG), JSON.stringify(config, null, 2) + '\n');
 
 // ---------------------------------------------------------------- previews
@@ -1581,7 +1595,7 @@ room('preview_windows_screens.png', 14, () => 'floor-carpet-gray_flat',
 }
 
 {
-  const pb = Object.fromEntries([...props, ...props4].map((p) => [p.name, p]));
+  const pb = Object.fromEntries([...props, ...props4, ...props6].map((p) => [p.name, p]));
   const wb = Object.fromEntries(bigWindows.map((w) => [w.name, w.im]));
   const N = 10, PW = N * TW, PH = N * TH + DY + 40, scene = img(PW, PH);
   for (let i = 0; i < scene.d.length; i += 4) scene.d.set([38, 41, 48, 255], i);
@@ -1594,7 +1608,7 @@ room('preview_windows_screens.png', 14, () => 'floor-carpet-gray_flat',
   blit(scene, wb['window-circle-big_ne_day_part1'], ...at(7, 0)); blit(scene, wb['window-circle-big_ne_day_part2'], ...at(8, 0));
   blit(scene, wb['window-circle-big_nw_night_part1'], ...at(0, 7)); blit(scene, wb['window-circle-big_nw_night_part2'], ...at(0, 6));
   const P = [['stair-half-into-wall_nw', 1, 1], ['stair-half-into-wall-ne_ne', 4, 1], ['stair-spiral-black_flat', 6, 5],
-    ['slide_sw', 8, 8], ['slide_se', 2, 8]].map(([n, i, j]) => ({ p: pb[n], i, j }));
+    ['slide-tube_sw', 3, 8]].map(([n, i, j]) => ({ p: pb[n], i, j }));
   P.sort((a, b) => a.i + a.j - (b.i + b.j));
   for (const { p, i, j } of P) { const [sx, sy] = at(i, j); blit(scene, p.im, sx + CW / 2 - p.ax, sy + CH - p.ay); }
   save('preview_stairs.png', upscale(scene, SCALE));
@@ -1623,5 +1637,21 @@ room('preview_windows_screens.png', 14, () => 'floor-carpet-gray_flat',
   P.sort((a, b) => a.p.hanging - b.p.hanging || a.i + a.j - (b.i + b.j) || a.p.onDesk - b.p.onDesk || a.k - b.k);
   for (const { p, i, j } of P) { const [sx, sy] = at(i, j); blit(scene, p.im, sx + CW / 2 - p.ax, sy + CH - p.ay); }
   save('preview_lounge_kitchen.png', upscale(scene, SCALE));
+}
+{
+  const pb = Object.fromEntries(props6.map((p) => [p.name, p]));
+  const N = 8, PW = N * TW, PH = N * TH + DY + 40, scene = img(PW, PH);
+  for (let i = 0; i < scene.d.length; i += 4) scene.d.set([38, 41, 48, 255], i);
+  const at = (i, j) => [(i - j) * (TW / 2) + PW / 2 - CW / 2, (i + j) * (TH / 2) + 36];
+  for (let s2 = 0; s2 <= 2 * (N - 1); s2++) for (let i = 0; i < N; i++) {
+    const j = s2 - i;
+    if (j >= 0 && j < N) blit(scene, byName['floor-cement-light_flat'], ...at(i, j));
+  }
+  for (let k = 0; k < N; k++) { blit(scene, byName['wall-white_ne'], ...at(k, 0)); blit(scene, byName['wall-white_nw'], ...at(0, k)); }
+  for (const [n, i, j] of [['slide-tube_sw', 2, 5], ['slide-tube_se', 6, 2]]) {
+    const p = pb[n], [sx, sy] = at(i, j);
+    blit(scene, p.im, sx + CW / 2 - p.ax, sy + CH - p.ay);
+  }
+  save('preview_slide_tube.png', upscale(scene, SCALE));
 }
 console.log(`files written: ${stats.written}, existing files kept: ${stats.kept}; config frames: ${Object.keys(config.frames).length}, sheets: ${config.meta.sheets.join(', ')}`);
