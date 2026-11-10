@@ -29,4 +29,7 @@ New assets belong under the matching `STYLES/<STYLE>/...` folder. Keep folder na
 - The contract for every tile (2:1 dimetric at 26.565°, 128x64 floor diamond, 128x256 canvas, anchor at the bottom vertex, light from upper-left, naming) is in `STYLES/PIXEL/INDOORS/OFFICE/TILE-SPEC.md`. New office tiles must follow it.
 - Validate with the `isometric-ops` skill's `tile-validate.py`. The commands are in the spec.
 
+- `node scripts/office-voxel.mjs` regenerates the voxel office set (brief: `STYLES/VOXEL/INDOORS/OFFICE/office.md`) into `STYLES/VOXEL/INDOORS/OFFICE/`, using the renderer in `scripts/voxel-engine.mjs` (rounded solids, ray-marched, soft shadows, worker threads; about a minute). Same folders and names as the pixel set, 256x128 tiles, 2500x2500 sheets, `office_tileset.json` and `preview_*`. Its contract is `STYLES/VOXEL/INDOORS/OFFICE/TILE-SPEC.md`. The same never-overwrite rule applies: sprites already in the config are skipped. Dry run with `OFFICE_OUT=<scratch dir>`; `OFFICE_ONLY=<regex>` renders a subset.
+- New voxel sets for other places should reuse `scripts/voxel-engine.mjs`.
+
 When new build scripts, tile specs or tooling are added, update this file to document them.
